@@ -1,0 +1,38 @@
+
+.bg-image {
+    background-image: url("/public/Background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* Preserve aspet ratio */
+    min-height: 100vh;
+}
+
+
+.form {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+  }
+
+.MuiTextField-root{
+    background-color: white;
+}
+.MuiCheckBox-root{
+    color: white;
+}
+
+.form {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1rem 1rem 1rem rgba(34, 34, 34, 0.7);
+  }

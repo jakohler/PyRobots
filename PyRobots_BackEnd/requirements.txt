@@ -1,0 +1,16 @@
+fastapi==0.68.0
+uvicorn==0.12.2
+pony
+passlib
+bcrypt
+pytest
+pydantic 
+pydantic[email]
+pydantic[dotenv]
+python-multipart
+yagmail
+jose
+coverage
+pycryptodome
+social-auth-core[openidconnect]
+fastapi_websocket_pubsub
